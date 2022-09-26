@@ -1,0 +1,19 @@
+.values {
+    @include card;
+    margin-bottom: 2rem;
+
+    display: grid;
+    grid-template-columns: 15rem auto;
+
+
+    &__head {
+        background-color: $color-bg-primary;
+        padding: 2rem 2rem 0 2rem;
+        border-top-left-radius: 2rem;
+        width: 15rem;
+    }
+
+    &__par {
+        padding: 2rem;
+    }
+}

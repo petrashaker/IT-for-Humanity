@@ -1,0 +1,23 @@
+.services {
+    &__flex {
+        display: flex;
+        justify-content: space-around;
+    
+        &--card {
+            @include card; 
+            display: block;
+            width: 30%;
+            height: 30rem;
+            border: 0rem solid white;
+            text-align: center;
+
+            & img {
+                width: 100%;
+                height: 14rem;
+                object-fit: cover;
+                border-top-left-radius: 2rem;
+
+            }
+        }
+    } 
+}

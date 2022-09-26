@@ -11,7 +11,7 @@
         content:" ";
         display: block;
         height: 0.2rem;
-        width: 15rem;
+        width: 20rem;
         position: absolute;
         top: 50%;
         left: 0;
@@ -21,44 +21,12 @@
     &:after {
         content:" ";
         display: block;
-        height: 2px;
-        width: 130px;
+        height: 0.2rem;
+        width: 20rem;
         position: absolute;
         top: 50%;
         right: 0;
         background: $color-bg-tertiary;
-    }
-}
-
-
-
-.sec_header--3 {
-    padding: 1rem 0;
-}
-
-.sec_header--4 {
-    padding: 1rem 0;
-}
-
-.quat {
-    background-color: $color-bg-primary;
-    color: $color-f-primary;
-    padding: 50px;
-    font-size: 1.8rem;
-    width: 120%;
-    margin-left: -10%;
-    margin-top: 2rem;
-    position: relative;
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-
-    &:before {
-        content: url(../img/noun-quote-89663.svg);
-        display: inline-block;
-        position: absolute;
-        top: 1rem;
-        left: 01rem;
-
     }
 }
 
