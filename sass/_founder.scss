@@ -1,11 +1,41 @@
 .founders {
+    display: flex;
+    justify-content: space-between;
+
+    
     &__block {
         width: 45%;
-    }
-}
 
-.founder-photo {
-    width: 15rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+        p {
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__filip {
+        position: relative;
+        top: 25rem;
+        margin-bottom: 25rem;
+
+        padding: 2rem;
+        border: 1px solid $color-bg-primary;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        background-color: $color-bg-primary;
+        // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+
+    &__photo {
+        width: 15rem;
+        margin: 2rem 0;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+
+        // &--jarda {
+        //     position: absolute;
+        //     right: 0;
+        // }
+    }
+
 }

@@ -1,0 +1,10 @@
+.visions {
+    &__flex {
+        display: flex
+    
+        &--card {
+            border: 0.1rem solid $color-bg-secondary;
+        }
+    }
+}
+
