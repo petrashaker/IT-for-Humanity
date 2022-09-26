@@ -3,8 +3,9 @@
         display: flex;
         justify-content: space-around;
     
-        &--card {
-            @include card; 
+        &--card1 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-top-left-radius: 2rem;
             display: block;
             width: 30%;
             height: 30rem;
@@ -12,11 +13,35 @@
             text-align: center;
 
             & img {
-                width: 100%;
-                height: 14rem;
-                object-fit: cover;
+                @include services__card--img;
                 border-top-left-radius: 2rem;
+            }
+        }
 
+        &--card2 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: block;
+            width: 30%;
+            height: 30rem;
+            border: 0rem solid white;
+            text-align: center;
+
+            & img {
+                @include services__card--img;
+            }
+        }
+
+        &--card3 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-bottom-right-radius: 2rem;            
+            display: block;
+            width: 30%;
+            height: 30rem;
+            border: 0rem solid white;
+            text-align: center;
+
+            & img {
+                @include services__card--img;
             }
         }
     } 

@@ -16,7 +16,9 @@
         display: inline-block;
         font-family: $font-secondary;
         font-size: $font-header;
-        color: $color-f-secondary;
-        padding-right: 5rem;
+        color: $color-bg-quaternary;
+        // color: $color-f-secondary;
+        // padding-right: 5rem;
+        margin: auto;
     }
 }

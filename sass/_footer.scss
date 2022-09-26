@@ -1,4 +1,19 @@
 .footer {
+
     margin-top: 10rem;
     text-align: center;
+    background-color: $color-bg-secondary;
+    color: $color-bg-quaternary;
+
+    & img {
+        color: white;
+        padding: 2rem 1rem 5rem 2rem;
+        cursor: pointer;
+
+    }
+    & p {
+        font-size: 1.2rem;
+        color: $color-bg-quaternary;
+        padding-bottom: 0.5rem;
+    }
 }

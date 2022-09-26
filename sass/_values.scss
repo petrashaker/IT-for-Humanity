@@ -1,19 +1,38 @@
 .values {
-    @include card;
-    margin-bottom: 2rem;
+    &__card {
+        margin-bottom: 2rem;
 
-    display: grid;
-    grid-template-columns: 15rem auto;
+        display: grid;
+        grid-template-columns: 15rem auto;
 
+        &--head {
+            background-color: $color-bg-primary;
+            padding: 2rem 2rem 0 2rem;
+            width: 15rem;
+        }
 
-    &__head {
-        background-color: $color-bg-primary;
-        padding: 2rem 2rem 0 2rem;
-        border-top-left-radius: 2rem;
-        width: 15rem;
+        &--head1 {
+            border-top-left-radius: 2rem;
+        }
+    
+        &--par {
+            padding: 2rem;
+        }
+
+        &--1 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-top-left-radius: 2rem;
+        }
+
+        &--2 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        
+        &--3 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-bottom-right-radius: 2rem;        
+        }
     }
 
-    &__par {
-        padding: 2rem;
-    }
+
 }
