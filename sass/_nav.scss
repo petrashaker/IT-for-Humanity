@@ -1,0 +1,12 @@
+.nav {
+    margin: 2rem auto 3rem auto;
+    &__item {
+        display: inline-block;
+        font-size: $font-nav;
+
+        &--link {
+            text-decoration: none;
+            color: $color-f-primary;
+        }
+    }
+}

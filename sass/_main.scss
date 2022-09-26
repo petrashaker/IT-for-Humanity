@@ -1,0 +1,70 @@
+.sec__header {
+    font-family: $font-secondary;
+    color: $color-f-primary;
+    // color: $color-f-secondary;
+    position: relative;
+    max-width: 70rem;
+    margin: 5rem auto;
+    text-align: center;
+
+    &:before {
+        content:" ";
+        display: block;
+        height: 0.2rem;
+        width: 15rem;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background: $color-bg-tertiary;
+    }
+
+    &:after {
+        content:" ";
+        display: block;
+        height: 2px;
+        width: 130px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background: $color-bg-tertiary;
+    }
+}
+
+.founder-photo {
+    width: 15rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.sec_header--3 {
+    padding: 1rem 0;
+}
+
+.sec_header--4 {
+    padding: 1rem 0;
+}
+
+.founders {
+    display: flex;
+}
+
+.quat {
+    background-color: $color-bg-primary;
+    color: $color-f-primary;
+    padding: 50px;
+    font-size: 1.8rem;
+    width: 120%;
+    margin-left: -10%;
+    position: relative;
+    border-bottom-right-radius: 2rem;
+
+    &:before {
+        content: url(../img/noun-quote-89663.svg);
+        display: inline-block;
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+
+    }
+}
+

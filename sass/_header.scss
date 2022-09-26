@@ -1,0 +1,23 @@
+.header {
+    // background-color: $color-logo;
+    background-color: $color-bg-secondary;
+    height: 15rem;
+    display: flex;
+    padding: 0 10vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+
+    &__logo {
+        height: 10rem;
+    }
+
+    &__title {
+        display: inline-block;
+        font-family: $font-secondary;
+        font-size: $font-header;
+        // color: $color-bg-tertiary;
+        color: $color-bg-primary;
+        padding-right: 5rem;
+    }
+}

@@ -1,0 +1,18 @@
+.partners {
+    &__list {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+
+        &--item {
+            display: inline-block;
+            // vertical-align: middle;
+
+            & img {
+                height: 5rem;
+                margin: 1rem; 
+                opacity: 0.7;
+            }
+        }
+    }
+}
