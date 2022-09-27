@@ -131,6 +131,10 @@ h4 {
   .contact__flex img {
     width: 2rem;
   }
+  .contact__box {
+    width: 60rem;
+    margin: 3rem auto;
+  }
 }
 
 @media screen and (min-width: 900px) {
