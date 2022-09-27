@@ -15,6 +15,13 @@ html {
   padding: 0;
 }
 
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 0px;
+      grid-template-columns: auto 0px;
+}
+
 .body {
   font-family: 'Poppins', sans-serif;
   margin: 0rem 10vw;
@@ -27,6 +34,23 @@ html {
   .body {
     margin: 0rem 20vw;
   }
+}
+
+.up {
+  --offset: 10rem;
+  margin-top: calc(100vh + var(--offset));
+  place-self: end;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #CBE11E;
+  color: "Open Sans", sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 a {
@@ -71,6 +95,10 @@ h4 {
 
 .contact__flex--inline {
   display: inline-block;
+}
+
+.contact__flex--inline a:hover {
+  color: #CBE11E;
 }
 
 .contact__flex img {
@@ -145,13 +173,28 @@ h4 {
   color: #ffffff;
 }
 
-.footer img {
-  color: white;
-  padding: 2rem 1rem 5rem 2rem;
-  cursor: pointer;
+.footer a {
+  text-decoration: none;
 }
 
-.footer p {
+.footer__icons {
+  cursor: pointer;
+  width: 30px;
+  margin: 2rem 0.5rem 3rem 0.5rem;
+}
+
+.footer__icons:hover {
+  fill: #CBE11E;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__icons {
+    width: 50px;
+    margin: 2rem 0.5rem 5rem 0.5rem;
+  }
+}
+
+.footer p, .footer a {
   font-size: 1.2rem;
   color: #ffffff;
   padding-bottom: 0.5rem;
@@ -267,6 +310,10 @@ h4 {
   text-decoration: none;
   cursor: pointer;
   padding: 0 1rem;
+}
+
+.nav__item--link:hover {
+  color: #ffffff;
 }
 
 @media screen and (min-width: 1165px) {

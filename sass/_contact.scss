@@ -15,6 +15,10 @@
 
         &--inline {
             display: inline-block;
+
+            & a:hover {
+                color: $color-bg-tertiary;
+            }
         }
         
         & img {
@@ -26,10 +30,6 @@
     }
 
     @media screen and(min-width: 900px) {
-        // &--span {
-        //     white-space: unset;
-        // }
-
         &__photo {
             float: left;
             margin: 0;
