@@ -1,19 +1,18 @@
 .nav {
     background-color: $color-bg-tertiary;
     padding: 1rem;
-
+    font-family: $font-secondary;  
 
     @media screen and(min-width: 1165px) {
         padding: 1rem 10vw;
         position: sticky;
         top: 0;
         z-index: 10;
-        font-family: $font-secondary;  
     }
 
     &__list {
         display: none;
-        width: 170px;
+        width: 20rem;
         margin: 1rem auto;
         padding: 1rem;
         font-size: 1.6rem;

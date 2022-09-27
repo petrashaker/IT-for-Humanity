@@ -18,8 +18,8 @@ html {
 body {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 0px;
-      grid-template-columns: auto 0px;
+  -ms-grid-columns: auto 0;
+      grid-template-columns: auto 0;
 }
 
 .body {
@@ -44,6 +44,7 @@ body {
   position: sticky;
   bottom: 2rem;
   right: 2rem;
+  white-space: nowrap;
   background-color: #CBE11E;
   color: "Open Sans", sans-serif;
   font-size: 3rem;
@@ -51,6 +52,12 @@ body {
   padding: 1rem 2rem;
   opacity: 0.6;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1450px) {
+  .up {
+    right: 16vw;
+  }
 }
 
 a {
@@ -267,6 +274,7 @@ h4 {
 .nav {
   background-color: #CBE11E;
   padding: 1rem;
+  font-family: "Lora", serif;
 }
 
 @media screen and (min-width: 1165px) {
@@ -276,13 +284,12 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 10;
-    font-family: "Lora", serif;
   }
 }
 
 .nav__list {
   display: none;
-  width: 170px;
+  width: 20rem;
   margin: 1rem auto;
   padding: 1rem;
   font-size: 1.6rem;
@@ -392,30 +399,30 @@ h4 {
 }
 
 .products__flex--item1 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-box-shadow: #CBE11E 0px 1.5px 5px;
+          box-shadow: #CBE11E 0px 1.5px 5px;
   border-top-left-radius: 2rem;
   padding: 2rem;
   margin-bottom: 1rem;
 }
 
 .products__flex--item2 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-box-shadow: #CBE11E 0px 1.5px 5px;
+          box-shadow: #CBE11E 0px 1.5px 5px;
   padding: 2rem;
   margin-bottom: 1rem;
 }
 
 .products__flex--item3 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-box-shadow: #CBE11E 0px 1.5px 5px;
+          box-shadow: #CBE11E 0px 1.5px 5px;
   padding: 2rem;
   margin-bottom: 1rem;
 }
 
 .products__flex--item4 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-box-shadow: #CBE11E 0px 1.5px 5px;
+          box-shadow: #CBE11E 0px 1.5px 5px;
   border-bottom-right-radius: 2rem;
   padding: 2rem;
   margin-bottom: 1rem;

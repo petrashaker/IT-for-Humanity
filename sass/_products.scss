@@ -3,7 +3,7 @@
 
         &--item1 {
             // border: 0.15rem solid $color-bg-tertiary;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: $color-bg-tertiary 0px 1.5px 5px;
             border-top-left-radius: 2rem;
             padding: 2rem;
             margin-bottom: 1rem;
@@ -11,21 +11,22 @@
 
         &--item2 {
             // border: 0.15rem solid $color-bg-tertiary;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: $color-bg-tertiary 0px 1.5px 5px;
             padding: 2rem;
             margin-bottom: 1rem;
         }
 
         &--item3 {
             // border: 0.15rem solid $color-bg-tertiary;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: $color-bg-tertiary 0px 1.5px 5px;
             padding: 2rem;
             margin-bottom: 1rem;
         }
 
         &--item4 {
-            // border: 0.15rem solid $color-bg-tertiary;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: $color-bg-tertiary 0px 1.5px 5px;
+            //šedý stín kolem
+            // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             border-bottom-right-radius: 2rem;
             padding: 2rem;
             margin-bottom: 1rem;
