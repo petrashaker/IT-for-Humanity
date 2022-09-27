@@ -5,10 +5,14 @@ html {box-sizing: border-box; font-size: 62.5%; scroll-behavior: smooth;}
 .body {
     // background-color: $color-bg-primary;
     font-family: 'Poppins', sans-serif;
-    margin: 2rem 10vw;
+    margin: 0rem 10vw;
     font-size: $font-main;
     line-height: 1.6;
     color: $color-f-primary;
+
+    @media screen and(min-width: 1450px) {
+        margin: 0rem 20vw;
+    }
 }
 
 a {
