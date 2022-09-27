@@ -1,25 +1,31 @@
 .founders {
-    display: flex;
-    justify-content: space-between;
 
-    
+    @media screen and (min-width: 900px) {
+        display: flex;
+        justify-content: space-between;
+
+        &__block {
+            width: 45%;
+        }
+
+        &__filip {
+            position: relative;
+            top: 25rem;
+            margin-bottom: 25rem;
+        }
+    }
+
+
     &__block {
-        width: 45%;
-
         p {
             padding-bottom: 1rem;
         }
     }
 
     &__filip {
-        position: relative;
-        top: 25rem;
-        margin-bottom: 25rem;
-
         padding: 2rem;
         border: 1px solid $color-bg-primary;
         background-color: $color-bg-primary;
-        // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
         @include card;
     }
@@ -30,10 +36,6 @@
         border-top-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
 
-        // &--jarda {
-        //     position: absolute;
-        //     right: 0;
-        // }
     }
 
 }
