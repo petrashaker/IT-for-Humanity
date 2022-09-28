@@ -293,10 +293,10 @@ h4 {
 
 .nav__list {
   display: none;
-  width: 20rem;
+  width: 22rem;
   margin: 1rem auto;
   padding: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -341,7 +341,7 @@ h4 {
 
 .nav__menu p {
   margin-right: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .nav__menu--icon {
