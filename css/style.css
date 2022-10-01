@@ -305,7 +305,7 @@ h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 940px;
+    width: 40rem;
     margin: 0 auto;
     padding-bottom: 0.5rem;
   }
